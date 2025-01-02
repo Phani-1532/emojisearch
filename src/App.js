@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     const newData = EmojiData.filter(emoji => emoji.title.toLowerCase().includes(search.toLowerCase()))
     setData(newData)
-  }, [search])
+  },[search])
   return (
     <div className="App">
       <center>
