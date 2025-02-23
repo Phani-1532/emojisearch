@@ -67,6 +67,7 @@
 
 .App-header p {
     margin-top: 10px;
+    margin-bottom: 0px;
     color: #e0ff47;
     font-style: italic;
 }
@@ -141,6 +142,38 @@
 
     .emoji-symbol {
         font-size: 1.5em;
+    }
+
+    .emoji-title {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .App-header {
+        padding: 10px 20px;
+    }
+
+    .App-header h1 {
+        font-size: 1.5em;
+    }
+
+    .App-header input {
+        width: 90%;
+    }
+
+    .App-header p {
+        font-size: 0.75em;
+    }
+
+    .emoji-card {
+        width: 120px;
+        padding: 10px;
+    }
+
+    .emoji-symbol {
+        font-size: 1.8em;
     }
 
     .emoji-title {
